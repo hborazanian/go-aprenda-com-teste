@@ -20,7 +20,7 @@ func BenchmarkRepetir(b *testing.B) {
 	}
 }
 
-func ExempleRepetir() {
+func ExampleRepetir() {
 	repeticao := Repetir("a", 5)
 	fmt.Println(repeticao)
 	// Output: aaaaa
